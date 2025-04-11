@@ -1,0 +1,30 @@
+body {
+  font-family:"Arial", "Meiryo", sans-serif;
+}
+html {
+  font-size: 20px;
+  text-align: center;
+}
+/* 同じ要素に装飾なりCSSを追加するなら上記のように改行を加えて書き足していくのもベスト */
+.blue {
+  color:skyblue;
+}
+.pink {
+  color:rgb(255, 192, 203);
+}
+h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; 
+
+  letter-spacing: 1.2em; 
+  /* 文字間や行間に倍率をかけたいなら単位「em」を付ける*/
+  text-shadow: 3px 3px 2px gray;
+  border-bottom: solid 3px rgb(115, 115, 114);
+  /* text-decoration:underline;でも下線を引くことができるが、これだと見出し分の長さしか下線が引かれない？ */
+}
+#basic p {
+  font-weight: bold;
+}
+/* 子孫要素の奴がちょっと難しい。グループ化との関連性も高そう */
